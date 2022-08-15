@@ -8,15 +8,28 @@ body{
     font-family: "monospace", sans-serif;
 }
 
-.font-primary{
-    color:aqua
+.font-primary {
+    color: #00abae;
 }
 
-.title-icon{
+.title-icon {
     font-size: 20px;
     font-weight: bold;
 }
 
+p {
+    font-size: 20px;
+}
+
+h2 y {
+    font-weight: bold;
+    font-size: 23px;
+    margin-bottom: 20px;
+}
+
+a.font-black {
+    color: #000 !important;
+}
 /*****************
 
 About
@@ -65,4 +78,28 @@ About
 
 #about .icons a {
     color: rgb(0, 0, 0);
+}
+
+
+/**********************
+
+PROJECT
+
+**********************/
+
+#project {
+    margin: 60px auto;
+    width: 80%
+}
+
+#project h2 {
+    text-align: center;
+}
+
+#project .card img {
+    width: 100%;
+}
+
+#project .card-title {
+    font-weight: bold;
 }
